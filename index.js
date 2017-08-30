@@ -3,6 +3,11 @@ function getFirstSelector(selector){
   }
 
 function nestedTarget(){
- return document.querySelector(nested.target)
+ for (let i = 0; i < array.length; i++) {
+    if (#nested(.target[i])) {
+      return .target[i]
+    }
+  }
+}
 
   }
